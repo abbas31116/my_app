@@ -27,27 +27,12 @@ export default function Home() {
         />
         <div className="flex place-content-center ">
           <Button className="z-10 ">اکنون شروع کنید</Button>
-          {/* <IButton
-            className="z-10"
-            title={""}
-            icon={BACK_ARROW}
-          /> */}
           <Button>
             مشاهده پروژه‌ها{" "}
             <Image alt="" src={BACK_ARROW} width={30} height={30} />
           </Button>
         </div>
       </div>
-      {/* <div className="h-screen ">
-        
-        <Image src={BR} alt={""} fill />
-       
-        
-        <div></div>
-        <div>
-
-        </div>
-      </div> */}
     </div>
   );
 }

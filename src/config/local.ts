@@ -5,6 +5,8 @@ export const BACK_ARROW="/images/Back.png"
 export const FRAME="/images/frame.png"
 export const FRAME2="/images/frame2.png"
 export const FRAME3="/images/frame3.png"
+export const ABOUT="/images/Aboute_us.png"
+export const CHECKMARK="/images/Checkmark.png"
 
 export class CustomAppRoutes {
     static readonly home = "/"

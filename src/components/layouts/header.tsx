@@ -16,7 +16,7 @@ export default function CustomHeader() {
           <Link
             key={`header-${index}`}
             href={item.link}
-            className={` hover:text-gray-500 duration-150 ${
+            className={` hover:text-foreground duration-150 ${
               pathname == item.link ? "text-primary" : "text-black"
             }`}
           >
@@ -24,7 +24,7 @@ export default function CustomHeader() {
           </Link>
         ))}
       </div>
-      <Button className="place-self-end self-center p-8 hover:bg-foreground hover:text-primary">
+      <Button className="place-self-end text-white self-center p-8 hover:bg-foreground hover:text-primary">
         درخواست مشاوره
       </Button>
     </div>

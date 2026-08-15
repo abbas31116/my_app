@@ -17,7 +17,7 @@ const CustomText = React.forwardRef<HTMLInputElement, IText>(
         <p
           className={cn(
             "text-sm font-light text-right leading-6 whitespace-pre-line",
-            className
+            className,
           )}
           {...props}
         >
@@ -25,7 +25,7 @@ const CustomText = React.forwardRef<HTMLInputElement, IText>(
         </p>
       </span>
     );
-  }
+  },
 );
 
 const SubTitle = React.forwardRef<HTMLInputElement, IText>(
@@ -35,14 +35,14 @@ const SubTitle = React.forwardRef<HTMLInputElement, IText>(
         <p
           className={clsx(
             " font-normal text-right whitespace-pre leading-8",
-            className
+            className,
           )}
         >
           {title}
         </p>
       </span>
     );
-  }
+  },
 );
 const Title = React.forwardRef<HTMLInputElement, IText>(
   ({ className, type, icon, title, ...props }, ref) => {
@@ -53,23 +53,23 @@ const Title = React.forwardRef<HTMLInputElement, IText>(
         </p>
       </span>
     );
-  }
+  },
 );
 const BoldTitle = React.forwardRef<HTMLInputElement, IText>(
-  ({  className, type, icon, title, ...props }, ref) => {
+  ({ className, type, icon, title, ...props }, ref) => {
     return (
       <>
-          <span className="flex">
-            <p className={cn("text-base font-black", className)}>{title}</p>
-          </span>
+        <span className="flex">
+          <p className={cn("text-base font-black", className)}>{title}</p>
+        </span>
       </>
     );
-  }
+  },
 );
 const HTitle = React.forwardRef<HTMLInputElement, IText>(
   ({ className, type, icon, title, ...props }, ref) => {
     return <h1 className={cn("text-sm font-black", className)}>{title}</h1>;
-  }
+  },
 );
 const H2Title = React.forwardRef<HTMLInputElement, IText>(
   ({ className, type, icon, title, ...props }, ref) => {
@@ -78,7 +78,7 @@ const H2Title = React.forwardRef<HTMLInputElement, IText>(
         {title}
       </h2>
     );
-  }
+  },
 );
 
 const H3Title = React.forwardRef<HTMLInputElement, IText>(
@@ -88,7 +88,7 @@ const H3Title = React.forwardRef<HTMLInputElement, IText>(
         {title}
       </h3>
     );
-  }
+  },
 );
 
 export { Title, BoldTitle, SubTitle, CustomText, HTitle, H2Title, H3Title };

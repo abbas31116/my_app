@@ -209,8 +209,8 @@ export default function Home() {
           <Image src={IMAGE3} alt={""} width={320} height={325} />
         </div>
       </div>
-      <div className="place-items-center place-content-center w-full m-20 max-w-[900px]">
-        <div className="bg-popover  w-full h-85 place-items-center place-content-center relative">
+      <div className="place-items-center place-content-center m-20">
+        <div className="bg-popover w-258 h-85 place-items-center place-content-center relative">
           <Image
             className="float-right"
             src={IMAGE4}
@@ -218,7 +218,7 @@ export default function Home() {
             width={360}
             height={55}
           />
-          <div className=" place-content-center h-full w- space-y-10 left-0  place-items-center absolute">
+          <div className=" place-content-center h-full w-160 space-y-10 left-0  place-items-center absolute">
             <Title
               className="text-primary right-0 absolute"
               title={"ارتباط باما"}

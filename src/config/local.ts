@@ -1,12 +1,34 @@
-export const LOGO = "/images/logo.png";
-export const BRAND ="/images/BackGround.png"
-export const BR="/images/BG.png"
-export const BACK_ARROW="/images/Back.png"
-export const FRAME="/images/frame.png"
-export const FRAME2="/images/frame2.png"
-export const FRAME3="/images/frame3.png"
-export const ABOUT="/images/Aboute_us.png"
-export const CHECKMARK="/images/Checkmark.png"
+export const ABOUT = "/images/Aboute_us.png"
+export const BRAND = "/images/BackGround.png"
+export const BACK_ARROW = "/images/Back.png"
+export const CHECKMARK = "/images/Checkmark.png"
+export const FRAME = "/images/frame.png"
+export const FRAME2 = "/images/frame2.png"
+export const FRAME3 = "/images/frame3.png"
+export const FRAME4 = "/images/frame4.png"
+export const FRAME5 = "/images/frame5.png"
+export const FRAME6 = "/images/frame6.png"
+export const FRAME7 = "/images/frame7.png"
+export const FRAME8 = "/images/frame8.png"
+export const FRAME9 = "/images/frame9.png"
+export const FRAME10 = "/images/frame10.png"
+export const FRAME11 = "/images/frame11.png"
+export const FRAME12 = "/images/frame12.png"
+export const FRAME13 = "/images/frame13.png"
+export const FRAME14 = "/images/frame14.svg"
+export const FRAME15 = "/images/frame15.svg"
+export const IMAGE1 = "/images/image1.png"
+export const IMAGE2 = "/images/image2.png"
+export const IMAGE3 = "/images/image3.png"
+export const IMAGE4 = "/images/image4.svg"
+export const IMAGE5 = "/images/image5.svg"
+export const IMAGE6 = "/images/image6.svg"
+export const IMAGE7 = "/images/image7.svg"
+export const IMAGE8 = "/images/image8.svg"
+export const INSTA = "images/Instagram.svg"
+export const LOGO = "/images/LaurelWreath.svg";
+export const TELEGRAM = "/images/TelegramApp.svg";
+export const WHATSAPP = "/images/WhatsApp.svg";
 
 export class CustomAppRoutes {
     static readonly home = "/"
@@ -14,5 +36,5 @@ export class CustomAppRoutes {
     static readonly honors = "/honors";
     static readonly Contact = "/Contact-us";
     static readonly industry = "/industry-us";
-    
+
 }

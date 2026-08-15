@@ -10,7 +10,7 @@ export default function CustomHeader() {
   const pathname = usePathname();
   return (
     <div className=" backdrop-blur-3xl rounded-[48px] h-33 grid grid-cols-3 m-5 fixed  p-5 place-content-center place-items-center  z-50 bg-white/20">
-      <p className=" place-self-start rounded-[26px] bg-primary w-24 h-21.25"></p>
+      <div className=" place-self-start rounded-[26px] bg-primary w-24 h-21.25"></div>
       <div className="grid grid-cols-7 gap-4">
         {HEADER_ITEMS.map((item, index) => (
           <Link

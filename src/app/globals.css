@@ -17,10 +17,10 @@ body {
   --foreground: #FFFFFF;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
+  --popover: #1E1E1E;
   --popover-foreground: oklch(0.145 0 0);
   --primary-foreground: hsla(196, 100%, 50%, 0.15);
-  --secondary: oklch(0.97 0 0);
+  --secondary: hsla(196, 100%, 50%, 0.07);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: #5C5B5B;
   --muted-foreground: #cfcfcf;

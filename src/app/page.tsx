@@ -17,9 +17,6 @@ import {
   FRAME10,
   FRAME11,
   FRAME12,
-  FRAME13,
-  FRAME14,
-  FRAME15,
   FRAME2,
   FRAME3,
   FRAME4,
@@ -34,11 +31,7 @@ import {
   IMAGE4,
   IMAGE5,
   IMAGE6,
-  IMAGE7,
-  INSTA,
   LOGO,
-  TELEGRAM,
-  WHATSAPP,
 } from "@/config/local";
 import { convertToPersianNumber } from "@/lib/utils";
 import Image from "next/image";
@@ -192,15 +185,15 @@ export default function Home() {
           />
           <Image src={IMAGE1} alt={"s"} width={320} height={325} />
           <CoustomRectangle
-            title={"راه حل های نوآوری"}
-            Bold={"۸۰۰۰+ پروژه‌های انجام شده"}
+            title={"کیفیت بالا"}
+            Bold={"۱۰۰۰+ پروژه‌های در دست اقدام"}
             icon={FRAME10}
             width={85}
             height={85}
           />
           <Image src={IMAGE2} alt={""} width={320} height={325} />
           <CoustomRectangle
-            title={"راه حل های نوآوری"}
+            title={"خلاقیت‌"}
             Bold={"۸۰۰۰+ پروژه‌های انجام شده"}
             icon={FRAME9}
             width={85}
@@ -290,91 +283,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-popover w-full h-160 relative">
-        <div className="relative">
-          <div className="w-250 h-129 relative">
-            <Image src={IMAGE7} alt={""} width={1000} height={50} />
-            <div className="inset-0 absolute bg-black/60 rounded-bl-[50px]"></div>
-            <div className="absolute top-0 right-5  grid grid-cols-3">
-              <div>
-                <div className=" place-self-start rounded-[26px] absolute top-5  bg-primary w-24 h-21.25"></div>
-                <CustomText
-                  className="text-gray-300 text-2xl mt-35"
-                  title={
-                    "ساخت سازه‌هایی که مادام‌العمر دوام می‌آورند، نیازمند رویکردی کل‌نگر است که مواد پیشرفته، طراحی انعطاف‌پذیر، نگهداری منظم و شیوه‌های پایداری را ادغام می‌کند. با یادگیری از نمونه های تاریخی و بهره گیری از تکنولوژی مدرن"
-                  }
-                />
-              </div>
-              <div className="m-15 place-items-center ">
-                <div className="relative place-content-center place-items-center">
-                  <Image
-                    src={FRAME14}
-                    alt={""}
-                    width={24}
-                    height={24}
-                    className=" float-right"
-                  />
-                  <Title title={"دسترسی سریع"} />
 
-                  <div className="my-15 ">
-                    <p className="p-2">خانه</p>
-                    <p className="p-2">پروژه‌ها</p>
-                    <p className="p-2">درباره ما</p>
-                    <p className="p-2">ارتباط باما</p>
-                  </div>
-                </div>
-              </div>
-              <div className="m-15 place-items-center ">
-                <div className="relative place-content-center place-items-center">
-                  <Image
-                    src={FRAME15}
-                    alt={""}
-                    width={24}
-                    height={24}
-                    className=" float-right"
-                  />
-                  <Title title={"ما را در شبکه‌های اجتماعی دنبال کنید"} />
-
-                  <div className="my-15 space-y-5">
-                    <div className="bg-white w-40 rounded-t-xl h-10 place-content-center place-items-center p-2">
-                      <Image
-                        src={INSTA}
-                        alt={""}
-                        width={30}
-                        height={30}
-                        className="float-right"
-                      />
-                      <Title className="text-primary" title={"Instagram"} />
-                    </div>
-                    <div className="bg-white w-40  h-10 place-content-center place-items-center p-2">
-                      <Image
-                        src={TELEGRAM}
-                        alt={""}
-                        width={30}
-                        height={30}
-                        className="float-right"
-                      />
-                      <Title className="text-primary" title={"Telegram"} />
-                    </div>
-                    <div className="bg-white w-40 rounded-b-xl h-10 place-content-center place-items-center p-2">
-                      <Image
-                        src={WHATSAPP}
-                        alt={""}
-                        width={30}
-                        height={30}
-                        className="float-right"
-                      />
-                      <Title className="text-primary" title={"Whatsapp"} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div></div>
-      </div>
     </div>
   );
 }
